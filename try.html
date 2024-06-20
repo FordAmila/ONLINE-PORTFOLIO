@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+            border: 2px solid black;
+            padding: 0px;
+            margin: 100px;
+            margin-left: 500px;
+            margin-right: 500px;
+            background-color: blanchedalmond;
+            
+        button {
+            padding: 9px 25px;
+            background-color: rgb(218, 230, 233);
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease 0s;
+            border: none;
+            position:relative;
+            }
+        button:hover {
+            background-color: rgba(26, 228, 8, 0.8);
+            }
+        h3 {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 30px;
+            counter-reset: blue;
+        }
+
+        </style>
+</head>
+<body>
+    <h2>CLIFFORD CLINT A. AMILA</h2>
+
+    <button onclick="document.getElementById('mypic'). src='pic1.jpg'">Click to Show pic</button>
+    <button id="button"type="onclick" onclick="document.getElementById('myqoute').innerHTML='The Road to succes is always Under Construction!'">Click to Show qoute</button>
+    <br>
+    <br>
+    
+    <img id="mypic" style="width: 250px">
+    <h3 id="myqoute"></h3>
+
+</body>
+</html>
